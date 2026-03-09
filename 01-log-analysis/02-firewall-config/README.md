@@ -8,7 +8,7 @@ The goal was to simulate attacker behavior by performing a port scan against a W
 
 ---
 
-## Tools Used
+## Tools Used 
 
 * Kali Linux
 * Nmap
