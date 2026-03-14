@@ -16,20 +16,24 @@ This repository documents a series of **hands-on cybersecurity labs designed to 
 
 The labs focus on detecting suspicious activity, investigating security events, and analyzing network behavior using industry tools such as **Splunk, Nmap, and Windows Security Logs**.
 
-## Featured Investigation
+This portfolio reflects my transition from **enterprise IT support into cybersecurity**, combining **6+ years of IT experience** with practical security investigations.
 
-### Brute Force Attack Detection
+---
+
+# Featured Investigation
+
+## Brute Force Attack Detection
 
 In this investigation, repeated Windows authentication failures were detected and analyzed using Splunk.
 
-Steps performed:
+### Steps Performed
 
 1. Generated failed login attempts on the Windows host
 2. Ingested Windows Security logs into Splunk
 3. Queried Event ID **4625** to identify failed authentication activity
 4. Used statistical analysis to identify repeated login attempts from a single source
 
-Example query used:
+### Example Query
 
 ```
 index=main EventCode=4625
@@ -38,20 +42,6 @@ index=main EventCode=4625
 ```
 
 This analysis demonstrates how SOC analysts detect potential **brute-force or password spraying attacks** through log analysis.
-
-
-Welcome to my **Security Lab Portfolio**.
-This repository contains hands-on cybersecurity labs aligned with **SOC Analyst, Security Analyst, and Blue Team roles**.
-
-These labs demonstrate practical experience in:
-
-* Security monitoring
-* Threat detection and investigation
-* Network reconnaissance
-* Vulnerability assessment
-* Threat hunting using SIEM tools
-
-This portfolio reflects my transition from **enterprise IT support into cybersecurity**, combining 6+ years of IT experience with practical security investigations.
 
 ---
 
@@ -88,19 +78,21 @@ This portfolio reflects my transition from **enterprise IT support into cybersec
             └───────────────────────┘
 ```
 
-This lab environment simulates a **basic SOC monitoring workflow** where security logs are generated on a Windows host, analyzed in Splunk, and investigated using threat hunting techniques. Kali Linux is used to perform reconnaissance, vulnerability scanning, and simulated attack activity.
+This lab environment simulates a **basic SOC monitoring workflow** where security logs are generated on a Windows host, analyzed in Splunk, and investigated using threat hunting techniques.
+
+Kali Linux is used to perform reconnaissance, vulnerability scanning, and simulated attack activity.
 
 ---
 
 # Quick Lab Index
 
-| Lab        | Topic                                  | Key Skills                                  | Link                                  |
-| ---------- | -------------------------------------- | ------------------------------------------- | ------------------------------------- |
-| **Lab 01** | Log Analysis & Incident Detection      | Splunk, Event Logs, Authentication Analysis | [Open Lab](01-log-analysis)           |
-| **Lab 02** | Network Reconnaissance                 | Nmap, Port Scanning, Service Enumeration    | [Open Lab](02-network-reconnaissance) |
-| **Lab 03** | Brute Force Attack Detection           | Windows Event Logs, Splunk Investigation    | [Open Lab](03-brute-force-detection)  |
-| **Lab 04** | Vulnerability Scanning & Risk Analysis | Nmap Scripts, CVE Identification            | [Open Lab](04-vulnerability-scanning) |
-| **Lab 05** | Threat Hunting Investigation           | Splunk Queries, Authentication Analysis     | [Open Lab](05-threat-hunting-splunk)  |
+| Lab | Topic | Key Skills | Link |
+|----|----|----|----|
+| **Lab 01** | Log Analysis & Incident Detection | Splunk, Event Logs, Authentication Analysis | [Open Lab](01-log-analysis) |
+| **Lab 02** | Network Reconnaissance | Nmap, Port Scanning, Service Enumeration | [Open Lab](02-network-reconnaissance) |
+| **Lab 03** | Brute Force Attack Detection | Windows Event Logs, Splunk Investigation | [Open Lab](03-brute-force-detection) |
+| **Lab 04** | Vulnerability Scanning & Risk Analysis | Nmap Scripts, CVE Identification | [Open Lab](04-vulnerability-scanning) |
+| **Lab 05** | Threat Hunting Investigation | Splunk Queries, Authentication Analysis | [Open Lab](05-threat-hunting-splunk) |
 
 ---
 
@@ -110,9 +102,9 @@ This lab environment simulates a **basic SOC monitoring workflow** where securit
 
 **Tools:** Splunk, Windows Security Logs
 
-* Investigated Windows authentication logs
-* Identified repeated failed login attempts
-* Practiced SOC-style log analysis and alert triage
+- Investigated Windows authentication logs
+- Identified repeated failed login attempts
+- Practiced SOC-style log analysis and alert triage
 
 📁 Folder: `01-log-analysis`
 
@@ -122,9 +114,9 @@ This lab environment simulates a **basic SOC monitoring workflow** where securit
 
 **Tools:** Kali Linux, Nmap
 
-* Performed host discovery and port scanning
-* Identified exposed services on a target system
-* Practiced enumeration techniques used during security assessments
+- Performed host discovery and port scanning
+- Identified exposed services on a target system
+- Practiced enumeration techniques used during security assessments
 
 📁 Folder: `02-network-reconnaissance`
 
@@ -134,9 +126,9 @@ This lab environment simulates a **basic SOC monitoring workflow** where securit
 
 **Tools:** Windows Event Viewer, Splunk
 
-* Simulated repeated failed login attempts
-* Analyzed Windows Event ID **4625** authentication failures
-* Identified brute force patterns in authentication logs
+- Simulated repeated failed login attempts
+- Analyzed Windows Event ID **4625** authentication failures
+- Identified brute force patterns in authentication logs
 
 📁 Folder: `03-brute-force-detection`
 
@@ -146,9 +138,9 @@ This lab environment simulates a **basic SOC monitoring workflow** where securit
 
 **Tools:** Kali Linux, Nmap Vulnerability Scripts
 
-* Conducted vulnerability scans against a target host
-* Identified exposed services and potential vulnerabilities
-* Reviewed CVE references and assessed risk severity
+- Conducted vulnerability scans against a target host
+- Identified exposed services and potential vulnerabilities
+- Reviewed CVE references and assessed risk severity
 
 📁 Folder: `04-vulnerability-scanning`
 
@@ -158,9 +150,9 @@ This lab environment simulates a **basic SOC monitoring workflow** where securit
 
 **Tools:** Splunk, Windows Security Logs
 
-* Performed threat hunting using SIEM queries
-* Investigated suspicious authentication activity
-* Identified unusual login behavior through event analysis
+- Performed threat hunting using SIEM queries
+- Investigated suspicious authentication activity
+- Identified unusual login behavior through event analysis
 
 📁 Folder: `05-threat-hunting-splunk`
 
@@ -168,19 +160,19 @@ This lab environment simulates a **basic SOC monitoring workflow** where securit
 
 # Skills Demonstrated
 
-* Security event monitoring and log analysis
-* Threat detection and investigation
-* Network reconnaissance and enumeration
-* Vulnerability scanning and risk analysis
-* Threat hunting using SIEM tools (Splunk)
-* Security documentation and reporting
+- Security event monitoring and log analysis
+- Threat detection and investigation
+- Network reconnaissance and enumeration
+- Vulnerability scanning and risk analysis
+- Threat hunting using SIEM tools (Splunk)
+- Security documentation and reporting
 
 ---
 
 # Certifications
 
-* CompTIA Network+
-* CompTIA Security+
+- CompTIA Network+
+- CompTIA Security+
 
 ---
 
@@ -190,11 +182,10 @@ I am an IT professional with **6+ years of experience supporting enterprise and 
 
 My background includes:
 
-* Endpoint and network troubleshooting
-* Identity and access management
-* Security event investigation
-* Collaboration with engineering and security teams in regulated environments
+- Endpoint and network troubleshooting
+- Identity and access management
+- Security event investigation
+- Collaboration with engineering and security teams in regulated environments
 
 This portfolio demonstrates my commitment to **continuous learning and hands-on cybersecurity skill development**.
-
 
