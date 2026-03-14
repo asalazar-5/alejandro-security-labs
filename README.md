@@ -1,83 +1,110 @@
 # Alejandro Salazar – Security Lab Portfolio
 
-Welcome to my Security Lab Portfolio. This repository showcases hands-on cybersecurity labs aligned with CompTIA Security+, SOC Analyst, and Security Analyst roles. These labs demonstrate practical experience in security monitoring, incident detection, network security, identity and access management, and vulnerability assessment.
+Welcome to my **Security Lab Portfolio**.
+This repository contains hands-on cybersecurity labs aligned with **SOC Analyst, Security Analyst, and Blue Team roles**.
 
-This portfolio reflects my transition from enterprise IT support into cybersecurity, combining 6+ years of experience with practical, real-world security scenarios.
+These labs demonstrate practical experience in:
+
+* Security monitoring
+* Threat detection and investigation
+* Network reconnaissance
+* Vulnerability assessment
+* Threat hunting using SIEM tools
+
+This portfolio reflects my transition from **enterprise IT support into cybersecurity**, combining 6+ years of IT experience with practical security investigations.
 
 ---
 
-## Labs Included
+# Labs Included
 
-### 1. Log Analysis & Incident Detection
-**Tools:** Splunk, Windows Security Logs  
-- Analyzed authentication logs to identify failed login attempts and brute-force indicators  
-- Created search queries to detect suspicious activity  
-- Practiced SOC-style incident triage and escalation  
+## 1. Log Analysis & Incident Detection
+
+**Tools:** Splunk, Windows Security Logs
+
+* Investigated Windows authentication logs
+* Identified repeated failed login attempts
+* Practiced SOC-style log analysis and alert triage
 
 📁 Folder: `01-log-analysis`
 
 ---
 
-### 2. Firewall Configuration & Network Security
-**Tools:** pfSense, Kali Linux  
-- Configured firewall rules to enforce least-privilege access  
-- Validated rules using port scanning and traffic analysis  
-- Reviewed firewall logs to confirm blocked and allowed traffic  
+## 2. Network Reconnaissance
 
-📁 Folder: `02-firewall-config`
+**Tools:** Kali Linux, Nmap
 
----
+* Performed host discovery and port scanning
+* Identified exposed services on a target system
+* Practiced enumeration techniques used during security assessments
 
-### 3. Active Directory Security
-**Tools:** Windows Server, Active Directory, Event Viewer  
-- Built and secured an Active Directory environment  
-- Managed users, groups, and access control policies  
-- Monitored authentication events and account lockouts  
-
-📁 Folder: `03-active-directory-security`
+📁 Folder: `02-network-reconnaissance`
 
 ---
 
-### 4. Vulnerability Scanning & Risk Analysis
-**Tools:** Nessus Essentials  
-- Conducted vulnerability scans against test systems  
-- Analyzed CVEs and severity ratings  
-- Prioritized remediation based on risk and exploitability  
+## 3. Brute Force Attack Detection
+
+**Tools:** Windows Event Viewer, Splunk
+
+* Simulated repeated failed login attempts
+* Analyzed Windows Event ID **4625** authentication failures
+* Identified brute force patterns in authentication logs
+
+📁 Folder: `03-brute-force-detection`
+
+---
+
+## 4. Vulnerability Scanning & Risk Analysis
+
+**Tools:** Kali Linux, Nmap Vulnerability Scripts
+
+* Conducted vulnerability scans against a target host
+* Identified exposed services and potential vulnerabilities
+* Reviewed CVE references and assessed risk severity
 
 📁 Folder: `04-vulnerability-scanning`
 
 ---
 
-### 5. Malware Monitoring (Optional)
-**Tools:** Sysmon, Process Explorer  
-- Monitored process creation and file activity  
-- Analyzed indicators of compromise in system logs  
-- Practiced safe malware monitoring techniques  
+## 5. Threat Hunting Investigation (Splunk)
 
-📁 Folder: `05-malware-monitoring`
+**Tools:** Splunk, Windows Security Logs
 
----
+* Performed threat hunting using SIEM queries
+* Investigated suspicious authentication activity
+* Identified unusual login behavior through event analysis
 
-## Skills Demonstrated
-
-- Security event monitoring and log analysis  
-- Incident detection, triage, and escalation  
-- Network security and firewall configuration  
-- Identity and access management (IAM)  
-- Vulnerability assessment and risk prioritization  
-- Malware monitoring and endpoint visibility  
+📁 Folder: `05-threat-hunting-splunk`
 
 ---
 
-## Certifications
+# Skills Demonstrated
 
-- CompTIA Network+  
-- CompTIA Security+ (In Progress)
+* Security event monitoring and log analysis
+* Threat detection and investigation
+* Network reconnaissance and enumeration
+* Vulnerability scanning and risk analysis
+* Threat hunting using SIEM tools (Splunk)
+* Security documentation and reporting
 
 ---
 
-## About Me
+# Certifications
 
-I am an IT professional with over six years of experience supporting enterprise and educational environments. I am currently transitioning into cybersecurity, with a focus on SOC Analyst and Security Analyst roles. My background includes networking fundamentals, Active Directory administration, incident documentation, and collaboration with engineering teams in regulated environments.
+* CompTIA Network+
+* CompTIA Security+
 
-This portfolio demonstrates my commitment to continuous learning and my ability to apply cybersecurity concepts in hands-on lab environments.
+---
+
+# About Me
+
+I am an IT professional with **6+ years of experience supporting enterprise and educational environments**. I am currently transitioning into cybersecurity with a focus on **SOC Analyst and Security Analyst roles**.
+
+My background includes:
+
+* Endpoint and network troubleshooting
+* Identity and access management
+* Security event investigation
+* Collaboration with engineering and security teams in regulated environments
+
+This portfolio demonstrates my commitment to **continuous learning and practical cybersecurity skill development**.
+
