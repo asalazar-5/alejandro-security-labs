@@ -13,6 +13,30 @@ This repository documents a series of **hands-on cybersecurity labs designed to 
 
 The labs focus on detecting suspicious activity, investigating security events, and analyzing network behavior using industry tools such as **Splunk, Nmap, and Windows Security Logs**.
 
+## Featured Investigation
+
+### Brute Force Attack Detection
+
+In this investigation, repeated Windows authentication failures were detected and analyzed using Splunk.
+
+Steps performed:
+
+1. Generated failed login attempts on the Windows host
+2. Ingested Windows Security logs into Splunk
+3. Queried Event ID **4625** to identify failed authentication activity
+4. Used statistical analysis to identify repeated login attempts from a single source
+
+Example query used:
+
+```
+index=main EventCode=4625
+| stats count by Account_Name Source_Network_Address
+| sort -count
+```
+
+This analysis demonstrates how SOC analysts detect potential **brute-force or password spraying attacks** through log analysis.
+
+
 Welcome to my **Security Lab Portfolio**.
 This repository contains hands-on cybersecurity labs aligned with **SOC Analyst, Security Analyst, and Blue Team roles**.
 
