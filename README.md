@@ -13,15 +13,17 @@ These labs demonstrate practical experience in:
 
 This portfolio reflects my transition from **enterprise IT support into cybersecurity**, combining 6+ years of IT experience with practical security investigations.
 
-## Lab Environment Architecture
+---
+
+# Lab Environment Architecture
 
 ```
             ┌───────────────────────┐
             │      Kali Linux VM     │
             │  (Attacker / Scanner)  │
             │                        │
-            │  - Nmap Recon         │
-            │  - Vulnerability Scan │
+            │  - Nmap Recon          │
+            │  - Vulnerability Scan  │
             └───────────┬───────────┘
                         │
                         │ Network Traffic
@@ -46,9 +48,11 @@ This portfolio reflects my transition from **enterprise IT support into cybersec
             └───────────────────────┘
 ```
 
-This lab simulates a basic **SOC monitoring environment** where security logs are generated on a Windows host, analyzed in Splunk, and investigated using threat hunting techniques. Kali Linux is used to perform reconnaissance, vulnerability scanning, and simulated attack activity.
+This lab environment simulates a **basic SOC monitoring workflow** where security logs are generated on a Windows host, analyzed in Splunk, and investigated using threat hunting techniques. Kali Linux is used to perform reconnaissance, vulnerability scanning, and simulated attack activity.
 
-## Quick Lab Index
+---
+
+# Quick Lab Index
 
 | Lab        | Topic                                  | Key Skills                                  | Link                                  |
 | ---------- | -------------------------------------- | ------------------------------------------- | ------------------------------------- |
@@ -62,7 +66,7 @@ This lab simulates a basic **SOC monitoring environment** where security logs ar
 
 # Labs Included
 
-## 1. Log Analysis & Incident Detection
+## Lab 01 – Log Analysis & Incident Detection
 
 **Tools:** Splunk, Windows Security Logs
 
@@ -74,7 +78,7 @@ This lab simulates a basic **SOC monitoring environment** where security logs ar
 
 ---
 
-## 2. Network Reconnaissance
+## Lab 02 – Network Reconnaissance
 
 **Tools:** Kali Linux, Nmap
 
@@ -86,7 +90,7 @@ This lab simulates a basic **SOC monitoring environment** where security logs ar
 
 ---
 
-## 3. Brute Force Attack Detection
+## Lab 03 – Brute Force Attack Detection
 
 **Tools:** Windows Event Viewer, Splunk
 
@@ -98,7 +102,7 @@ This lab simulates a basic **SOC monitoring environment** where security logs ar
 
 ---
 
-## 4. Vulnerability Scanning & Risk Analysis
+## Lab 04 – Vulnerability Scanning & Risk Analysis
 
 **Tools:** Kali Linux, Nmap Vulnerability Scripts
 
@@ -110,7 +114,7 @@ This lab simulates a basic **SOC monitoring environment** where security logs ar
 
 ---
 
-## 5. Threat Hunting Investigation (Splunk)
+## Lab 05 – Threat Hunting Investigation
 
 **Tools:** Splunk, Windows Security Logs
 
@@ -151,5 +155,6 @@ My background includes:
 * Security event investigation
 * Collaboration with engineering and security teams in regulated environments
 
-This portfolio demonstrates my commitment to **continuous learning and practical cybersecurity skill development**.
+This portfolio demonstrates my commitment to **continuous learning and hands-on cybersecurity skill development**.
+
 
